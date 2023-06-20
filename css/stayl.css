@@ -130,31 +130,21 @@ header .container .nav{
     
 
 }
-.nav > a{
-    font-size: 26px;
-    font-weight: bold;
+header .container .nav .logo{
+    width: 100px;
     max-height: 72px;
     color: var(--main-color);
-    display: flex;
-    flex: 1;
-    text-align: center;
-    
-    
-    
 }
 header .menu > ul{
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     flex: 1;
-    
-    
-    
 }
 .nav .menu > ul > li > a{
-     display: flex;
-     flex-wrap: wrap;
-     position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
     max-height: 72px;
     text-align: center;
     padding: 25px 30px;
@@ -1744,11 +1734,8 @@ header .menu > ul{
 .footer .conetent .sochel{
     padding:0 20px;
 }
-.footer .conetent .sochel h1{
-    font-size: 50px;
-    font-weight: 600;
-    letter-spacing: -1px;
-    color: white;
+.footer .conetent .sochel img{
+    width: 150px;
     margin: 0;
 }
 .footer .conetent .sochel .icon{
